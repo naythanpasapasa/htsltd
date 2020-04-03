@@ -26,6 +26,24 @@
 
 /* Contact (BEV) */
 
+#contact {
+    font-family: 'Karla', sans-serif;
+}
+
+#contact .col-maps {
+    padding: 30px 30px 30px 0px;
+}
+
+#contact .contact-addr {
+    color: #000000;
+    font-size: 22px;
+}
+
+#contact .form-title {
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+}
 
 /* Footer (BEV) */
 footer {
