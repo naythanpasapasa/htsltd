@@ -13,11 +13,98 @@
 
 
 /* vision (JUNE) */
-
-
+.vision{
+    height: 700px;
+    background-color:white;
+    z-index: -2;
+    font-family: 'Karla', sans-serif;
+}
+.vision_main{
+    position: relative;
+}
+.vision_img_1{
+    position: absolute;
+    top: 150px;
+    z-index: 1;
+}
+.vision_card{
+    width: 801px;
+    height: 395px;
+    background-color: #00AEEF;
+    position: absolute;
+    top: 226px;
+    left: 65px;
+}
+.vision_img_2{
+    position: absolute;
+    left: 801px;
+    top: 154px;
+}
+.vision_img_3{
+    position: absolute;
+    top: 621px;
+    left: 300px;
+}
+.vision_card_content{
+    width: 450px;
+    position: absolute;
+    top: 320px;
+    right: 9%;
+}
+.vision_img_4{
+    position: absolute;
+    top: 250px;
+    right: 0;
+}
 /* About (JUNE) */
-
-
+.about{
+    height: 700px;
+    /* background-color:wheat; */
+    font-family: 'Karla', sans-serif;
+}
+.about_main{
+    position: relative;
+}
+.about_img_4{
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+.about_img_1{
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+.about_img_2{
+    position: absolute;
+    top: 55px;
+    right: 250px;
+    z-index: 1;
+}
+.about_img_3{
+    position: absolute;
+    top: 100px;
+    right: 800px;
+}
+.about_card{
+    width: 801px;
+    height: 430px;
+    background-color: #EC008C;
+    position: absolute;
+    top: 170px;
+    right: 65px;
+}
+.about_card_content{
+    width: 450px;
+    position: absolute;
+    top: 300px;
+    left: 9%;
+}
+.about_img_5{
+    position: absolute;
+    top: 600px;
+    right: 320px;
+}
 /* Works (NAYTHAN) */
 
 
