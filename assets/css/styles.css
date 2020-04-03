@@ -28,3 +28,18 @@
 
 
 /* Footer (BEV) */
+footer {
+    background-color: #00AEEF;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+
+footer .footer-copyright {
+    color: #ffffff; /* Fallback for older browsers */
+    color: rgba(255,255,255, 0.6);
+}
+
+footer h6 a{
+    color: #ffffff;
+}
