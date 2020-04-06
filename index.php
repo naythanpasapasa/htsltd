@@ -27,7 +27,7 @@ include ('contactform.php');
         <nav class="navbar navbar-expand-lg navbar-dark static-top">
             <div class="container">
               <a class="navbar-brand" href="#">
-                    <img src="../assets/images/navigation/logo_3.png" class="nav-logo">
+                    <img src="./assets/images/navigation/logo_3.png" class="nav-logo">
                   </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -162,7 +162,7 @@ include ('contactform.php');
     <div class="works">
         <div class="cont">
             <div class="content">
-            <img src="assets/images/works/1.jpg" width = 600>
+            <img src="assets/images/works/1.jpg" width = 500>
             </div>
             <div class="content">
                 <h2>lorem impsum</h2>
@@ -173,7 +173,7 @@ include ('contactform.php');
         </div>
         <div class="cont">
             <div class="content">
-                <img src="assets/images/works/2.jpg" width = 600>
+                <img src="assets/images/works/2.jpg" width = 500>
                 </div>
             <div class="content">
                     <h2>lorem impsum</h2>
@@ -184,7 +184,7 @@ include ('contactform.php');
             </div>
         <div class="cont">
             <div class="content">
-                <img src="assets/images/works/3.jpg" width = 600 height = 400>
+                <img src="assets/images/works/3.jpg" width = 500 height = 330>
                 </div>
                 <div class="content">
                     <h2>lorem impsum</h2>
@@ -204,6 +204,7 @@ include ('contactform.php');
               <div class="col maps"
               >
                     <img src="./assets/images/contact/logo_3_new.png" width="60%" height="auto"/>
+
                     <div class="contact-addr">愛知県名古屋市西区</div>
 
                     <!-- maps section -->
