@@ -1,3 +1,7 @@
+<?php
+include ('contactform.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -199,7 +203,7 @@
 
               <div class="col maps"
               >
-                    <img src="./assets/images/logo_3.png" width="60%" height="auto"/>
+                    <img src="./assets/images/contact/logo_3_new.png" width="60%" height="auto"/>
                     <div class="contact-addr">愛知県名古屋市西区</div>
 
                     <!-- maps section -->
@@ -222,18 +226,10 @@
                         GET IN TOUCH
                     </div>
 
-                    <form>
-                        <div class="form-group mt-4">
-                            <input type="text" name="text_name" class="form-control" placeholder="Name *" value="" required/>
-                        </div>
-    
-                        <div class="form-group">
-                        <input type="email" name="text_email" class="form-control" placeholder="Email address *" value="" required/>
-                        </div>
-
-                        <div class="form-group">
-                        <textarea name="text_message" class="form-control" placeholder="Message *" value="" style="width: 100%; height: 150px;" req></textarea>
-                        </div>
+                    <form method="post" action="contactform.php">
+                        <input type="text" name="text_name" id="text_name" class="form-control mt-5" placeholder="Name *" required/>
+                        <input type="email" name="text_email" id="text_email" class="form-control mt-2" placeholder="Email address *" required/>
+                        <textarea name="text_message" id="text_message" class="form-control mt-2" placeholder="Message *" style="width: 100%; height: 150px;" required></textarea>
 
                         <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="agreeCheck" required>
@@ -245,11 +241,9 @@
                         <div class="g-recaptcha mt-4" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI">
 
                         </div>
-
                         <div class="form-group text-right mt-3">
-                            <btn class="btn" type="submit" style="background-color: #00AEEF; color: white; padding: 5px 20px 5px 20px; border-radius: 50px; font-size: 22px;">SEND</btn>
+                            <button type="submit" name="submit" class="btn" style="background-color: #00AEEF; color: white; padding: 5px 25px 5px 25px; border-radius: 50px; font-size: 22px;">Send</button>
                         </div>
-
                     </form>
                </div>
 
