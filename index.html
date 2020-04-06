@@ -11,6 +11,10 @@
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+
+    <!--- for recaptcha-->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
 </head>
 
 <body>
@@ -87,45 +91,70 @@
 
     <!-- Our works grid ends here -->
     <!-- Contact starts here (BEV) -->
-    <section id="contact"
-    >
-      <div class="container"
-      >
-        <div class="row d-flex text-left"
-        >
 
-            <div class="col-xs-9 col-md-7 col-maps">
-              <img src="./assets/images/logo_3.png" width="60%" height="auto"/>
-              <div class="contact-addr">愛知県名古屋市西区</div>
+    <section id="contact">
+      <div class="container">
+          <div class="row">
 
-              <!-- maps section -->
-              <div class="mapouter mt-3"
+              <div class="col maps"
               >
-                  <div class="gmap_canvas">
-                      <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=tokyo%20japan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                      </iframe><a href="https://www.embedgooglemap.net/blog/private-internet-access-coupon/">privateinternetaccess voucher</a>
-                  </div>
-                  <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}
-                  </style>
-              </div>
+                    <img src="./assets/images/logo_3.png" width="60%" height="auto"/>
+                    <div class="contact-addr">愛知県名古屋市西区</div>
 
-              <!-- end of maps section -->
+                    <!-- maps section -->
+                    <div class="maprouter mt-3"
+                    >
+                        <div class="gmap_canvas">
+                            <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=tokyo%20japan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                            </iframe>
+                        </div>
+                        <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}
+                        </style>
+                    </div>
 
-            </div>
+                    <!-- end of maps section -->
 
+               </div>
 
-            <div class="col col-form">
-              <div class="form-title">
-                  GET IN TOUCH
-              </div>
-            </div>
+               <div class="col col-form">
+                    <div class="form-title">
+                        GET IN TOUCH
+                    </div>
 
-        </div>
-     </div>
+                    <form>
+                        <div class="form-group mt-4">
+                            <input type="text" name="text_name" class="form-control" placeholder="Name *" value="" required/>
+                        </div>
+    
+                        <div class="form-group">
+                        <input type="email" name="text_email" class="form-control" placeholder="Email address *" value="" required/>
+                        </div>
 
+                        <div class="form-group">
+                        <textarea name="text_message" class="form-control" placeholder="Message *" value="" style="width: 100%; height: 150px;" req></textarea>
+                        </div>
+
+                        <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="agreeCheck" required>
+                        <label class="form-check-label" for="agreeCheck" style="font-size: 12px;">
+                            私は株式会社 <span style="color: #00AEEF; font-weight: bold;">HTS LTd.</span> の “個人情報保護に関する方針” および” 個人情報に関する取扱い”について同意します
+                        </label>
+                        </div>
+
+                        <div class="g-recaptcha mt-4" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI">
+
+                        </div>
+
+                        <div class="form-group text-right mt-3">
+                            <btn class="btn" type="submit" style="background-color: #00AEEF; color: white; padding: 5px 20px 5px 20px; border-radius: 50px; font-size: 22px;">SEND</btn>
+                        </div>
+
+                    </form>
+               </div>
+
+          </div>
+      </div>
     </section>
-
-
     <!-- Contact ends here -->
 
     <!-- Footer starts here (BEV) -->
