@@ -26,13 +26,13 @@
   
   .top-nav .navbar .collapse .navbar-nav .nav-item .nav-link {
     color: #707070;
-    font-size: 30px;
+    font-size: 21px;
     padding: 0px 65px 0px 0px;
   }
 
 /* main visual (KEVIN)*/
 .main-visual .masthead {
-    height: 981px;
+    height: 700px;
     background-image: url(../images/main_visual/intro.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -50,13 +50,13 @@
   
   .main-visual .masthead .container .row .header-h1 {
     font-weight: bolder;
-    font-size: 90px;
+    font-size: 60px;
     line-height: 90%;
   }
   
   .main-visual .masthead .container .row .lead {
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 21px;
     line-height: 90%;
   }
 
