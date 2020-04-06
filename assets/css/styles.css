@@ -157,10 +157,70 @@
     right: 320px;
 }
 /* Works (NAYTHAN) */
-
+.works_card{
+    width: 801px;
+    height: 395px;
+    background-color: #FFF200;
+    position: absolute;
+    top: 226px;
+    left: 65px;
+}
 
 /* Works Grid (NAYTHAN) */
+.works{
+ 	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-end;
+	align-content: stretch;
 
+    /* background-color: yellow; */
+     background-repeat: no-repeat; 
+    background-size: cover; 
+    background-image: url("../images/works/4.png");
+    /* background-image: url("4.png"); */
+    background-repeat: no-repeat;
+    background-size: 1920px auto;
+    width: 1920px;
+    height: 1080px;
+}
+
+.cont{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+
+    /* background-color: grey; */
+    background-image: url("../images/works/6.png");
+    background-repeat: no-repeat;
+    background-size: 600px 550px;
+    width: 600px;
+    height: 800px;
+    border-radius: 50px;
+}
+
+.content{
+    border-radius: 50px;
+    text-align: center;
+}
+
+.content h2{
+    line-height: 4;
+    font-family: 'Karla', sans-serif;
+}
+
+.content h3{
+    font-family: 'Karla', sans-serif;
+}
+
+.works .cont .content img {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
 
 /* Contact (BEV) */
 
