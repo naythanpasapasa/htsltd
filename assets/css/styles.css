@@ -47,9 +47,9 @@
     position: absolute;
     width: 50%;
     height: 2px;
-    bottom: 10;
+    bottom: 0;
     left: 0;
-    background-color: #777777;
+    background-color: #00AEEF;
     visibility: hidden;
     transform: scaleX(0);
     transition: all 0.3s ease-in-out;
