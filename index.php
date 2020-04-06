@@ -35,20 +35,19 @@ include ('contactform.php');
               <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item active">
-                    <a class="nav-link" href="#">Top
-                        </a>
+                    <a class="nav-link" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Vision</a>
+                    <a class="nav-link" href="#vision-section">Vision</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Profile</a>
+                    <a class="nav-link" href="#about-section">Profile</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Our Work</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -75,7 +74,7 @@ include ('contactform.php');
 
     <!-- news ends here -->
     <!-- Our vision starts here (JUNE) -->
-    <section class="vision">
+    <section class="vision" id="vision-section">
         <div class="vision_main">
             <div class="vision_img_1">
                 <img src="assets/images/vision/vision.png" alt="" width="800px">
@@ -102,7 +101,7 @@ include ('contactform.php');
     </section>
     <!-- Our vision ends here -->
     <!-- About us starts here (JUNE) -->
-    <section class="about">
+    <section class="about" id="about-section">
         <div class="about_main">
             <div class="about_card">
             </div>

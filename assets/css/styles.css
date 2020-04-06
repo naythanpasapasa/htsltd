@@ -4,6 +4,14 @@
 }
 
 /* navigation (KEVIN)*/
+.top-nav{
+    position: fixed;
+    top: 100;
+    width: 100%;
+    z-index: 1;
+    background-color: #ffffff;
+}
+
 .top-nav .navbar {
     height: 114px;
     position: relative;
@@ -28,9 +36,32 @@
     color: #707070;
     font-size: 21px;
     padding: 0px 65px 0px 0px;
+    text-align: center;
+  }
+  a.nav-link{
+    position: relative;
   }
 
+  a.nav-link:before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    bottom: 10;
+    left: 0;
+    background-color: #777777;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  a.nav-link:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
 /* main visual (KEVIN)*/
+.main-visual {
+    padding: 100px 0px 0px 0px;
+}
 .main-visual .masthead {
     height: 700px;
     background-image: url(../images/main_visual/intro.png);
