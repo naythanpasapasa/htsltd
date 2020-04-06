@@ -157,10 +157,58 @@
     right: 320px;
 }
 /* Works (NAYTHAN) */
-
+.works_card{
+    width: 801px;
+    height: 395px;
+    background-color: #FFF200;
+    position: absolute;
+    top: 226px;
+    left: 65px;
+}
 
 /* Works Grid (NAYTHAN) */
+.works{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
 
+    /* background-color: yellow; */
+     background-repeat: no-repeat; 
+    background-size: cover; 
+    background-image: url("../images/works/4.png");
+    /* background-image: url("4.png"); */
+    background-repeat: no-repeat;
+    background-size: 1920px auto;
+    width: 1920px;
+    height: 1080px;
+}
+
+.cont{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+
+    /* background-color: grey; */
+    width: 600px;
+    height: 600px;
+    border-radius: 50px;
+}
+
+.content{
+    border-radius: 50px;
+    text-align: center;
+}
+
+.works .cont .content img {
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
 
 /* Contact (BEV) */
 
