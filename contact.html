@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=320, height=device-height, target-densitydpi=medium-dpi" />
+    <title>HTS Ltd.</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bev-responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+
+    <!--- for recaptcha-->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+
+<body>
+
+    <section id="contact">
+      <div class="container">
+          <div class="row">
+
+              <div class="col maps"
+              >
+
+              <div class="contact-title">
+                  <img src="./assets/images/contact/logo_3_new.png" width="60%" height="auto"/>
+                  <div class="contact-addr">愛知県名古屋市西区</div>
+              </div>
+
+                    <!-- maps section -->
+                    <div class="maprouter mt-3"
+                    >
+                        <div class="gmap_canvas">
+                            <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=tokyo%20japan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                            </iframe>
+                        </div>
+                        <style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}
+                        </style>
+                    </div>
+
+                    <!-- end of maps section -->
+
+               </div>
+
+               <div class="col form">
+                    <div class="form-title">
+                        GET IN TOUCH
+                    </div>
+
+                    <form id="contact-form ">
+                        <input type="text" name="text_name" id="text_name" class="form-control mt-5" placeholder="Name *" required/>
+                        <input type="email" name="text_email" id="text_email" class="form-control mt-2" placeholder="Email address *" required/>
+                        <textarea name="text_message" id="text_message" class="form-control mt-2" placeholder="Message *" style="width: 100%; height: 150px;" required></textarea>
+
+                        <div class="form-check mt-2">
+                        <input class="form-check-input" type="checkbox" value="" id="agreeCheck" required>
+                        <label class="form-check-label" for="agreeCheck" style="font-size: 12px;">
+                            私は株式会社 <span style="color: #00AEEF; font-weight: bold;">HTS LTd.</span> の “個人情報保護に関する方針” および” 個人情報に関する取扱い”について同意します
+                        </label>
+                        </div>
+
+                        <div class="g-recaptcha mt-4" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI">
+                            
+                        </div>
+
+                            <div class="form-group">
+                                <button class="btn" type="submit">Send</button>
+                            </div>
+                        </div>
+
+                    </form>
+               </div>
+
+          </div>
+      </div>
+    </section>
+    <!-- Contact ends here -->
+    <footer>
+        <div class="container"
+        >
+          <div class="row text-center d-flex justify-content-center pt-3 mb-3"
+          >
+      
+              <div class="col-md-2 mb-0">
+              <h6 class="footer-links">
+                  <a href="#">Top</a>
+              </h6>
+              </div>
+      
+              <div class="col-md-2 mb-0">
+              <h6 class="footer-links">
+                  <a href="#">Vision</a>
+              </h6>
+              </div>
+      
+              <div class="col-md-2 mb-0">
+              <h6 class="footer-links">
+                  <a href="#">Profile</a>
+              </h6>
+              </div>
+      
+              <div class="col-md-2 mb-0">
+              <h6 class="footer-links">
+                  <a href="#">Our Works</a>
+              </h6>
+              </div>
+      
+              <div class="col-md-2 mb-0">
+              <h6 class="footer-links">
+                  <a href="#">Contact</a>
+              </h6>
+              </div>
+  
+          </div>
+        </div>
+      
+        <div class="footer-copyright text-center py-3">Copyright © 2020</div>
+    
+    </footer>
+
+    <script src=" https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="assets/js/all.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
