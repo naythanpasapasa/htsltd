@@ -67,7 +67,44 @@
             </header>
         </section>
     <!-- main visual ends here -->
-    <!-- news starts here -->
+    <!-- news starts here BEV -->
+    <section id="news">
+        <div class="container">
+            <div class="news-title">
+                News
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-hover mt-5">
+                    <tbody>
+                        <tr>
+                            <th scope="row">Lorem ipsum</th>
+                            <td id="date">01-02-2020</td>
+                            <td class="d-none d-sm-table-cell">Lorem ipsum dolor sit amet..</td>
+                            <td class="read-more"><a href="#">READ MORE</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Lorem ipsum</th>
+                            <td id="date">01-02-2020</td>
+                            <td class="d-none d-sm-table-cell">Lorem ipsum dolor sit amet..</td>
+                            <td class="read-more"><a href="#">READ MORE</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Lorem ipsum</th>
+                            <td id="date">01-02-2020</td>
+                            <td class="d-none d-sm-table-cell">Lorem ipsum dolor sit amet..</td>
+                            <td class="read-more"><a href="#">READ MORE</a>
+                            </td>
+                        </tr>
+                    </tbody>
+    
+                </table>
+            </div>
+
+        </div>
+    </section>
 
     <!-- news ends here -->
     <!-- Our vision starts here (JUNE) -->
@@ -222,7 +259,7 @@
 
                <div class="col form">
                     <div class="form-title">
-                        GET IN TOUCH
+                        Get in touch
                     </div>
 
                     <form id="contact-form ">
