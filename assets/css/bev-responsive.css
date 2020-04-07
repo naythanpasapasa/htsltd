@@ -1,5 +1,5 @@
 
-/* start of NEWS (BEV) */
+/* Contact (BEV) */
 
 #news {
     margin: 0;
@@ -59,12 +59,6 @@
         text-align: right;
     }
 }
-  
-
-/* end of NEWS (BEV) */
-
-
-/* Contact (BEV) */
 
 #contact {
     margin: 0;
@@ -132,7 +126,7 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
 
-    /* start of news section */
+
     #news th {
         font-size: 18px;
         color: #00AEEF;
@@ -143,11 +137,7 @@
         color: brown;
     }
       
-    /* end of news section */
-
-    /* start of contact section */
-
-    #contact{
+  #contact{
         padding-bottom: 50px;
         padding-top: 30px;
     }

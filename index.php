@@ -67,7 +67,7 @@
             </header>
         </section>
     <!-- main visual ends here -->
-    <!-- news starts here BEV -->
+    <!-- news starts here -->  
     <section id="news">
         <div class="container">
             <div class="news-title">
