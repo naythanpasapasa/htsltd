@@ -165,45 +165,14 @@
     </section>
     <!-- About us ends here -->
     <!-- Our works starts here (NAYTHAN) -->
-<<<<<<< HEAD
-        <section class="vision" id="vision-section">
-=======
-    <section class="works">
->>>>>>> fixed grid margins
-        <div class="vision_main">
-            <div class="works_img_1">
-                <img src="assets/images/works/5.jpg" alt="" width="800px" height="420px;">
-            </div>
-            <div class="works_card">
-            </div>
-            <div class="vision_img_2">
-                <img src="assets/images/works/img_2.png" alt="" width="60">
-            </div>
-            <div class="vision_img_3">
-                <img src="assets/images/works/v_img_3.png" alt="" width="300">
-            </div>
-            <div class="vision_card_content">
-                <h1>Our Works</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat.</p>
-            </div>
-            <div class="vision_img_4">
-                <img src="assets/images/works/vision_img_4.png" alt="" width="40">
-            </div>
-        </div>
-    </section>
+
     <!-- Our works ends here -->
     <!-- Our works grid starts here (NAYTHAN) -->
-<<<<<<< HEAD
-    <div class="works" id="works-section">
-=======
     <section class="grid">
->>>>>>> fixed grid margins
+
         <div class="cont">
             <div class="content">
-            <img src="assets/images/works/1.jpg" width = 500>
+            <img src="assets/images/works/1.jpg" >
             </div>
             <div class="content">
                 <h2>lorem impsum</h2>
@@ -214,7 +183,7 @@
         </div>
         <div class="cont">
             <div class="content">
-                <img src="assets/images/works/2.jpg" width = 500>
+                <img src="assets/images/works/2.jpg">
                 </div>
             <div class="content">
                     <h2>lorem impsum</h2>
@@ -225,7 +194,7 @@
             </div>
         <div class="cont">
             <div class="content">
-                <img src="assets/images/works/3.jpg" width = 500 height = 335>
+                <img src="assets/images/works/2.jpg" >
                 </div>
                 <div class="content">
                     <h2>lorem impsum</h2>
