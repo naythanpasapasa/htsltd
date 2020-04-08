@@ -1,5 +1,5 @@
 
-/* start of NEWS (BEV) */
+/* Contact (BEV) */
 
 html {
     scroll-behavior: smooth;
@@ -51,17 +51,6 @@ html {
     border-bottom: 2px solid gray;
     font-weight: 500;
 }
-
-
-/* @media (max-width:768px) {
-    
-}
-   */
-
-/* end of NEWS (BEV) */
-
-
-/* Contact (BEV) */
 
 #contact {
     margin: 0;
@@ -129,7 +118,6 @@ html {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
 
-    /* start of news section */
     #news table th {
         font-size: 18px;
         color: #00AEEF;
@@ -140,11 +128,7 @@ html {
         font-size: 10px;
     }
       
-    /* end of news section */
-
-    /* start of contact section */
-
-    #contact{
+  #contact{
         padding-bottom: 50px;
         padding-top: 30px;
     }
