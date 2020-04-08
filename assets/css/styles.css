@@ -254,7 +254,7 @@ html {
    background-image: url("../images/works/7-01.png");
    background-repeat: no-repeat;
    background-size: 1920px auto;
-   width: auto;
+   width: 100%;
    height: auto;
 }
 

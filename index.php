@@ -165,7 +165,6 @@
     </section>
     <!-- About us ends here -->
     <!-- Our works starts here (NAYTHAN) -->
-
     <!-- Our works ends here -->
     <!-- Our works grid starts here (NAYTHAN) -->
     <section class="grid">
