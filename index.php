@@ -53,7 +53,7 @@
         </section>
         <!-- navigation ends here -->
         <!-- main visual starts here (KEVIN) -->
-        <section class="main-visual">
+        <section class="main-visual" id="home">
             <header class="masthead">
                 <div class="container h-100">
                 <div class="row h-100 align-items-center">
@@ -79,22 +79,22 @@
                     <tbody>
                         <tr>
                             <th scope="row">Lorem ipsum</th>
-                            <td id="date">01-02-2020</td>
-                            <td class="d-none d-sm-table-cell">Lorem ipsum dolor sit amet..</td>
+                            <td id="date text-dark">01-02-2020</td>
+                            <td class="d-none d-sm-table-cell text-dark">Lorem ipsum dolor sit amet..</td>
                             <td class="read-more"><a href="#">READ MORE</a>
                             </td>
                         </tr>
                         <tr>
                             <th scope="row">Lorem ipsum</th>
-                            <td id="date">01-02-2020</td>
-                            <td class="d-none d-sm-table-cell">Lorem ipsum dolor sit amet..</td>
+                            <td id="date text-dark">01-02-2020</td>
+                            <td class="d-none d-sm-table-cell text-dark">Lorem ipsum dolor sit amet..</td>
                             <td class="read-more"><a href="#">READ MORE</a>
                             </td>
                         </tr>
                         <tr>
                             <th scope="row">Lorem ipsum</th>
-                            <td id="date">01-02-2020</td>
-                            <td class="d-none d-sm-table-cell">Lorem ipsum dolor sit amet..</td>
+                            <td id="date text-dark">01-02-2020</td>
+                            <td class="d-none d-sm-table-cell text-dark">Lorem ipsum dolor sit amet..</td>
                             <td class="read-more"><a href="#">READ MORE</a>
                             </td>
                         </tr>
@@ -165,7 +165,7 @@
     </section>
     <!-- About us ends here -->
     <!-- Our works starts here (NAYTHAN) -->
-        <section class="vision">
+        <section class="vision" id="vision-section">
         <div class="vision_main">
             <div class="vision_img_1">
                 <img src="assets/images/works/5.jpg" alt="" width="800px" height="420px;">
@@ -192,7 +192,7 @@
     </section>
     <!-- Our works ends here -->
     <!-- Our works grid starts here (NAYTHAN) -->
-    <div class="works">
+    <div class="works" id="works-section">
         <div class="cont">
             <div class="content">
             <img src="assets/images/works/1.jpg" width = 500>
@@ -298,31 +298,31 @@
       
               <div class="col-md-2 mb-0">
               <h6 class="footer-links">
-                  <a href="#">Top</a>
+                  <a href="#home">Home</a>
               </h6>
               </div>
       
               <div class="col-md-2 mb-0">
               <h6 class="footer-links">
-                  <a href="#">Vision</a>
+                  <a href="#vision-section">Vision</a>
               </h6>
               </div>
       
               <div class="col-md-2 mb-0">
               <h6 class="footer-links">
-                  <a href="#">Profile</a>
+                  <a href="#profile-section">Profile</a>
               </h6>
               </div>
       
               <div class="col-md-2 mb-0">
               <h6 class="footer-links">
-                  <a href="#">Our Works</a>
+                  <a href="#works-section">Our Works</a>
               </h6>
               </div>
       
               <div class="col-md-2 mb-0">
               <h6 class="footer-links">
-                  <a href="#">Contact</a>
+                  <a href="#contact">Contact</a>
               </h6>
               </div>
   
