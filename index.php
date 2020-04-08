@@ -41,7 +41,7 @@
                     <a class="nav-link" href="#about-section">Profile</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Our Work</a>
+                    <a class="nav-link" href="#our-work">Our Work</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
