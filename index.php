@@ -165,9 +165,13 @@
     </section>
     <!-- About us ends here -->
     <!-- Our works starts here (NAYTHAN) -->
+<<<<<<< HEAD
         <section class="vision" id="vision-section">
+=======
+    <section class="works">
+>>>>>>> fixed grid margins
         <div class="vision_main">
-            <div class="vision_img_1">
+            <div class="works_img_1">
                 <img src="assets/images/works/5.jpg" alt="" width="800px" height="420px;">
             </div>
             <div class="works_card">
@@ -192,7 +196,11 @@
     </section>
     <!-- Our works ends here -->
     <!-- Our works grid starts here (NAYTHAN) -->
+<<<<<<< HEAD
     <div class="works" id="works-section">
+=======
+    <section class="grid">
+>>>>>>> fixed grid margins
         <div class="cont">
             <div class="content">
             <img src="assets/images/works/1.jpg" width = 500>
@@ -217,7 +225,7 @@
             </div>
         <div class="cont">
             <div class="content">
-                <img src="assets/images/works/3.jpg" width = 500 height = 330>
+                <img src="assets/images/works/3.jpg" width = 500 height = 335>
                 </div>
                 <div class="content">
                     <h2>lorem impsum</h2>
@@ -226,7 +234,7 @@
                     <h3>Lorem ipasum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</h3>
                 </div>
             </div>
-    </div>
+</section>
     <!-- Our works grid ends here -->
     <!-- Contact starts here (BEV) -->
 

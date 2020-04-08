@@ -191,18 +191,56 @@ html {
     top: 600px;
     right: 320px;
 }
+
+
 /* Works (NAYTHAN) */
+.works{
+    height: 700px;
+    font-family: 'Karla', sans-serif;
+}
+.vision_main{
+
+    position: relative;
+}
+.works_img_1{
+    position: absolute;
+    top: 150px;
+    left: 0;
+}
+.vision_img_2{
+    position: absolute;
+    left: 801px;
+    top: 154px;
+}
+.vision_img_3{
+    position: absolute;
+    top: 621px;
+    left: 300px;
+}
+.vision_card_content{
+    width: 450px;
+    position: absolute;
+    top: 320px;
+    right: 9%;
+}
+.vision_img_4{
+    position: absolute;
+    top: 250px;
+    right: 0;
+}
+
 .works_card{
     width: 801px;
     height: 395px;
-    background-color: #FFF200;
+    background-color:#FFF200;
     position: absolute;
     top: 226px;
     left: 65px;
+    z-index: -1;
 }
 
 /* Works Grid (NAYTHAN) */
-.works{
+.grid{
  	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -214,7 +252,6 @@ html {
      background-repeat: no-repeat; 
     background-size: cover; 
     background-image: url("../images/works/4.png");
-    /* background-image: url("4.png"); */
     background-repeat: no-repeat;
     background-size: 1920px auto;
     height: 1080px;
@@ -233,8 +270,9 @@ html {
     background-repeat: no-repeat;
     background-size: 600px 550px;
     width: 600px;
-    height: 800px;
+    height: 700px;
     border-radius: 50px;
+    margin: 50px;
 }
 
 .content{
@@ -243,15 +281,18 @@ html {
 }
 
 .content h2{
+    font-size: 28px;
+    font-weight: bold;
     line-height: 4;
     font-family: 'Karla', sans-serif;
 }
 
 .content h3{
+    font-size: 20px;
     font-family: 'Karla', sans-serif;
 }
 
-.works .cont .content img {
+.grid .cont .content img {
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
 }
