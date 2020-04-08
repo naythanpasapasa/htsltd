@@ -78,21 +78,21 @@
                 <table class="table table-hover mt-5">
                     <tbody>
                         <tr>
-                            <th scope="row">Lorem ipsum</th>
+                            <th scope="row" id="title">Lorem ipsum</th>
                             <td id="date text-dark">01-02-2020</td>
                             <td class="d-none d-sm-table-cell text-dark">Lorem ipsum dolor sit amet..</td>
                             <td class="read-more"><a href="#">READ MORE</a>
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row">Lorem ipsum</th>
+                            <th scope="row" id="title">Lorem ipsum</th>
                             <td id="date text-dark">01-02-2020</td>
                             <td class="d-none d-sm-table-cell text-dark">Lorem ipsum dolor sit amet..</td>
                             <td class="read-more"><a href="#">READ MORE</a>
                             </td>
                         </tr>
                         <tr>
-                            <th scope="row">Lorem ipsum</th>
+                            <th scope="row" id="title">Lorem ipsum</th>
                             <td id="date text-dark">01-02-2020</td>
                             <td class="d-none d-sm-table-cell text-dark">Lorem ipsum dolor sit amet..</td>
                             <td class="read-more"><a href="#">READ MORE</a>
