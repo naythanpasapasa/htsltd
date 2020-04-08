@@ -11,6 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/bev-responsive.css">
+    <link rel="stylesheet" href="assets/css/naythan-responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
 
     <!--- for recaptcha-->
